@@ -1,0 +1,41 @@
+#input {
+  width: 201px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.title {
+  color: #5d5d5d;
+}
+
+.button {
+  border: 0.5px solid black;
+  width: 37.5px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.row {
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.row:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.button:hover {
+  background-color: darkgrey;
+}
+
+.buttons {
+  border: 0.5px solid black;
+  width: fit-content;
+  padding: 10px;
+}
+
+.buttons:first-child {
+  background-color: chartreuse;
+}
